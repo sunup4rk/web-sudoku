@@ -156,7 +156,6 @@ function checkSuccess(){
 ////////////////////////////// 이벤트 핸들러 //////////////////////////////
 function dragstart(evt){
     evt.dataTransfer.setData("number", evt.target.id);
-    console.log(evt.target.id);
 }
 
 function dragover(evt){
