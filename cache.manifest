@@ -2,5 +2,5 @@ CACHE MANIFEST
 # 2022-11-14 v1.0.0
 index.html
 style.css
-table_main.js
+main.js
 sudoku.png
