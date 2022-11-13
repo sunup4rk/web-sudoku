@@ -3,8 +3,9 @@ CACHE MANIFEST
 index.html
 style.css
 main.js
-sudoku.png
 
 NETWORK:
+sudoku.png
 
 FALLBACK:
+https://github.com/sunup4rk/web-sudoku
