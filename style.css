@@ -1,0 +1,135 @@
+header{
+    background-color: #101010;
+    text-align: center;
+    color: aliceblue;
+}
+
+body{
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    width: 488px;
+}
+.table_drag{
+    background-color: #000000;   
+    width: 500px;
+    height: 60px;
+    padding: 5px;
+}
+.num_container{
+    background-color: #000000;
+    flex-wrap: wrap;
+    display: flex;
+    width: 490px;
+    height: 50px;
+}
+.num{
+    background-color: #6200EE;
+    border-radius: 3px;    
+    margin-right: 5px;
+    width: 50px;
+    height: 50px;    
+    color: aliceblue;
+    text-align: center;
+    line-height: 50px;
+    font-size: xx-large;
+    font-weight:bolder;
+}
+.num:last-child{
+    background-color: #6200EE;
+    border-radius: 3px;    
+    margin-right: 0;
+    width: 50px;
+    height: 50px;    
+    color: aliceblue;
+    text-align: center;
+    line-height: 50px;
+    font-size: xx-large;
+    font-weight:bolder;
+}
+.table_main{
+    background-color: #000000;   
+    width: 500px;
+    height: 500px;
+    padding: 5px;
+}
+.row{
+    background-color: #000000;
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 5px;
+    width: 490px;
+    height: 50px;
+}
+.row:last-child{
+    background-color: #000000;
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 0;
+    width: 490px;
+    height: 50px;
+}
+.block_odd{
+    background-color: #282828;
+    border-radius: 3px;
+    margin-right: 5px;
+    width: 50px;
+    height: 50px;
+    color: aliceblue;
+    text-align: center;
+    line-height: 50px;
+    font-size: xx-large;
+    font-weight:bolder;
+}
+.block_odd:last-child{
+    background-color: #282828;
+    border-radius: 3px;    
+    margin-right: 0;
+    width: 50px;
+    height: 50px;    
+    color: aliceblue;
+    text-align: center;
+    line-height: 50px;
+    font-size: xx-large;
+    font-weight:bolder;
+}
+.block_even{
+    background-color: #404040;
+    border-radius: 3px;
+    margin-right: 5px;
+    width: 50px;
+    height: 50px;
+    color: aliceblue;
+    text-align: center;
+    line-height: 50px;
+    font-size: xx-large;
+    font-weight:bolder;
+}
+.block_even:last-child{
+    background-color: #404040;
+    border-radius: 3px;    
+    margin-right: 0;
+    width: 50px;
+    height: 50px;    
+    color: aliceblue;
+    text-align: center;
+    line-height: 50px;
+    font-size: xx-large;
+    font-weight:bolder;
+}
+.target{
+    border-radius: 3px;    
+    margin-right: 5px;
+    width: 50px;
+    height: 50px;    
+    color: aliceblue;
+    text-align: center;
+    line-height: 50px;
+    font-size: xx-large;
+    font-weight:bolder;
+}
+
