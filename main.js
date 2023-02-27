@@ -90,9 +90,9 @@ function makePuzzle(){
 
     initialDisplaySheet = JSON.parse(JSON.stringify(answerSheet));
 
-    // arrayB 에 구멍 뚫기
+    // 스도쿠 빈칸 생성 (30개)
     let zeroCount = 0
-    while(zeroCount < 10){
+    while(zeroCount < 30){
         let idx = Math.floor(Math.random() * 81);
         if(initialDisplaySheet[idx]){
             initialDisplaySheet[idx] = 0;
